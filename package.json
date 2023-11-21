@@ -1,7 +1,7 @@
 {
-  "name": "notion-backup",
-  "version": "1.4.1",
-  "description": "Notion exporter meant to be used as part of a GitHub workflow",
+  "name": "notion-backup-md",
+  "version": "0.0.3",
+  "description": "Notion exporter meant to be used as part of a GitHub workflow, Fork in notion-backup project",
   "main": "./notion-backup.js",
   "bin": {
     "notion-backup": "./notion-backup.js",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/darobin/notion-backup.git"
+    "url": "https://github.com/savingmomo/notion-backup-md.git"
   },
   "eslintConfig": {
     "extends": "robin"
   },
-  "author": "Robin Berjon <robin@berjon.com>",
+  "author": "momo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/darobin/notion-backup/issues"
+    "url": "https://github.com/savingmomo/notion-backup-md/issues"
   },
-  "homepage": "https://github.com/darobin/notion-backup",
+  "homepage": "https://github.com/savingmomo/notion-backup-md",
   "devDependencies": {
     "eslint-config-robin": "^6.1.3"
   },

@@ -1,6 +1,9 @@
 
 # notion-backup
 
+
+**`NOTE`**: **The original author established two output formats, but I removed the html format output due to storage capacity restrictions on GitHub Actions.**
+
 This is a very simple tool to export a workspace from [Notion](https://www.notion.so/), designed
 to work as part of a GitHub workflow.
 
@@ -66,7 +69,7 @@ jobs:
         run: rm -rf markdown html *.zip
 
       - name: Setup dependencies
-        run: npm install -g notion-backup
+        run: npm install -g notion-backup-md
 
       - name: Run backup
         run: notion-backup
